@@ -25,12 +25,12 @@ public class GUIOrbitDraw_Patches
     {
       if (DerelictMarker.Utils.GetVesselIsKnownButNotExplored(item.sDisplayRegID))
       {
-        DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Modifying Text Label for: {item.sDisplayRegID}");
+        //DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Modifying Text Label for: {item.sDisplayRegID}");
         item.txtLabel.text += "*";
         continue;
       }
 
-      DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Not modifying Text Label for: {item.sDisplayRegID}");
+      //DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Not modifying Text Label for: {item.sDisplayRegID}");
     }
   }
 }

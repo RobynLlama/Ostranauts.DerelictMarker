@@ -10,11 +10,11 @@ internal class MFDShipSelect_Patches
   {
     if (DerelictMarker.Utils.GetVesselIsKnownButNotExplored(si._strRegID))
     {
-      DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Modifying: {si._strRegID}");
+      //DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Modifying: {si._strRegID}");
       __result += "*";
     }
 
-    DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Not modifying: {si._strRegID}");
+    //DerelictMarker.DerelictMarkerPlugin.Log.LogMessage($"Not modifying: {si._strRegID}");
     return;
   }
 }
